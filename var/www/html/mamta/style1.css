@@ -1,0 +1,353 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+	height:130%;
+}
+/* cover */
+
+#cover{
+	background:#69C url(Nikon.jpg) center no-repeat;
+	background-size:cover;
+	color:#AEB6BF ;
+	height:100%;
+	text-align:center;
+	display:flex;
+       align-items:center;
+        margin-top: 0px;
+	margin-bottom:50px;
+
+	position:auto;
+
+	}
+
+#cover-caption{
+width:100%;
+}
+#icons{
+	height:120%;
+}
+#icons-caption{
+	background-color:#3498DB;
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+
+{
+	margin:0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  position:fixed;
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+div.gallery {
+    border: 5px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+	border-bottom-style:ridge;
+	margin-left:auto;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+.right {
+    width: 600px;
+height:600px;
+	font-style:italic;
+	float:right;
+	margin-top:10px;
+background-image:url(img/depositphotos_46440083-stock-photo-pale-sky-blue-background.jpg);	
+}
+/* portfolio*/
+div.portfolio1 {
+	text-align:center;
+	  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left:20px;
+	
+}
+
+div.portfolio:hover {
+	margin-left:auto;
+	
+}
+
+div.portfolio img {
+    width: 100%;
+    height:auto;
+	
+   
+    border-radius: 30%;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+div.portfolio1{
+	text-align:left;
+		font-style:italic;
+	color:;
+}
+	
+
+div.gallery1{
+	text-align:center;
+	text-decoration:inherit;
+	font-style:italic;
+	color:#CACFD2;
+	margin:auto;
+	
+	}
+
+
+
+#div about{
+	color:CACFD2;
+	margin-top:150px;
+	margin-bottom:50px;
+	
+
+}
+
+#div contact{
+	color:;
+}
+
+div.keyrings{
+	text-align:center;
+	font-style:italic;
+	color:;
+	margin:auto;
+}
+
+div.keyrings1 {
+    border: 5px solid #ccc;
+	
+}
+
+div.keyrings1:hover {
+    border: 5px solid #777;
+	border-bottom-style:ridge;
+	margin-left:auto;
+	
+}
+
+div.keyrings1 img {
+    width: 100%;
+    height: auto;
+	
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align:end;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float:right;
+
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+	position:fixed;
+    left: 0;
+}
+
+
+#Whatsapp {
+    top: 80px;
+    background-color: #2196F3;
+	position:fixed;
+}
+
+
+#Gmail {
+    top: 140px;
+    background-color: #f44336;
+	position:fixed;
+}
+
+
+
+#Contact {
+    top: 200px;
+    background-color: #555;
+	position:fixed;
+}
+
+
+.dropbtn {
+background-color:#2C3E50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+     background-color:#28e4d0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1
+position:fixed;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color:#2C3E50;
+}
+
+#fix{
+	position:fixed;
+}
+
